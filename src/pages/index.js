@@ -90,7 +90,7 @@ export default () => (
             <div className="flex-2 px-3">
               <Card className="mb-8">
                 <p className="mt-4">
-                  <img src="https://i.imgur.com/NtEiWWg.png"></img>
+                  <img src="https://i.imgur.com/JbFIa0i.png"></img>
                 </p>
                 <p className="font-semibold text-xl">Rukevwe Inikoro</p>
                 <p className="font-semibold text-l">Chief Finance Officer</p>
