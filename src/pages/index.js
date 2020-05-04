@@ -29,7 +29,7 @@ export default () => (
           </p>
         </div>
         <div className="lg:w-1/2">
-          <HeroImage/>
+          <HeroImage />
         </div>
       </div>
     </section>
@@ -81,7 +81,7 @@ export default () => (
             <div className="flex-2 px-3">
               <Card className="mb-8">
                 <p className="mt-4">
-                  <img src="https://i.imgur.com/4yXK0cm.png"></img>
+                  <img src="https://i.imgur.com/yx0oz5P.png"></img>
                 </p>
                 <p className="font-semibold text-xl">Krystaleen Nichol</p>
                 <p className="font-semibold text-l">Chief Communications Officer</p>
@@ -114,40 +114,42 @@ export default () => (
       id="about"
       primarySlot={
         <div className="lg:pr-32 xl:pr-48">
-          <h3 className="text-3xl font-semibold leading-tight">The Hottest App on the Market Coming 2020</h3>
+          <h3 className="text-3xl font-semibold leading-tight">
+            The Hottest App on the Market Coming 2020
+          </h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            What started off at the <strong>Innovation for Health competition 2019</strong> to tackle one global health
-            challenge is
-            growing into an automated and intricate technology making a breakthrough in the delivery of healthcare and
-            other essential services.
-            From 2020, Inuka is dedicated to making lives easier for patients, caregivers, allied and healthcare
-            professionals who speak different languages by offering an innovative solution through its extensive
-            platform.
+            What started off at the <strong>Innovation for Health competition 2019</strong> to
+            tackle one global health challenge is growing into an automated and intricate technology
+            making a breakthrough in the delivery of healthcare and other essential services. From
+            2020, Inuka is dedicated to making lives easier for patients, caregivers, allied and
+            healthcare professionals who speak different languages by offering an innovative
+            solution through its extensive platform.
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts/>}
+      secondarySlot={<SvgCharts />}
     />
     <SplitSection
       id="history"
-
       reverseOrder
       primarySlot={
         <div className="lg:pl-32 xl:pl-48">
-          <h3 className="text-3xl font-semibold leading-tight">
-            Our History
-          </h3>
+          <h3 className="text-3xl font-semibold leading-tight">Our History</h3>
           <p className="mt-8 text-xl font-light leading-relaxed">
-            Inuka Inc was born at the <strong>Innovation for Health competition 2019</strong>. It was 6 weeks of intense
-            work among the
-            multidisciplinary team. The normal patient-doctor encounter was transcribed and pre-recorded in 3 languages
-            (English, Swahili and Sukuma) and enhanced with visuals to facilitate the doctor-patient experience.
-            Subsequently, patient information is saved on to Inuka hardware to facilitate the patient’s future health
-            encounter. <strong>Inuka won the competition in the category of family and community centered care</strong>.
+            Inuka Inc was born at the <strong>Innovation for Health competition 2019</strong>. It
+            was 6 weeks of intense work among the multidisciplinary team. The normal patient-doctor
+            encounter was transcribed and pre-recorded in 3 languages (English, Swahili and Sukuma)
+            and enhanced with visuals to facilitate the doctor-patient experience. Subsequently,
+            patient information is saved on to Inuka hardware to facilitate the patient’s future
+            health encounter.{' '}
+            <strong>
+              Inuka won the competition in the category of family and community centered care
+            </strong>
+            .
           </p>
         </div>
       }
-      secondarySlot={<SvgCharts/>}
+      secondarySlot={<SvgCharts />}
     />
     {/*<SplitSection*/}
     {/*  primarySlot={*/}
@@ -183,9 +185,9 @@ export default () => (
       <div className="container mx-auto">
         <LabelText className="mb-8 text-gray-600 text-center">What customers are saying</LabelText>
         <div className="flex flex-col md:flex-row md:-mx-3">
-          {customerData.map(customer => (
+          {customerData.map((customer) => (
             <div key={customer.customerName} className="flex-1 px-3">
-              <CustomerCard customer={customer}/>
+              <CustomerCard customer={customer} />
             </div>
           ))}
         </div>
@@ -193,10 +195,11 @@ export default () => (
     </section>
     <section className="container mx-auto my-20 py-24 bg-gray-200 rounded-lg text-center">
       <h3 className="text-5xl font-semibold">Get in Touch</h3>
-      <p className="mt-8 text-xl font-light">
-        Send us an email to learn more about Inuka </p>
+      <p className="mt-8 text-xl font-light">Send us an email to learn more about Inuka </p>
       <p className="mt-8">
-        <a href="mailto:admin@inukahealth.com"><Button size="xl">Email: admin@inukahealth.com</Button></a>
+        <a href="mailto:admin@inukahealth.com">
+          <Button size="xl">Email: admin@inukahealth.com</Button>
+        </a>
       </p>
     </section>
   </Layout>
